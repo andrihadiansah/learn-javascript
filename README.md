@@ -65,14 +65,10 @@ No prior programming experience is required. However, familiarity with basic com
 ```plaintext
 learn-javascript/
 ├── README.md          # Main documentation
-├── basics/            # Fundamental JavaScript concepts
-│   ├── variables.md   # Explanation of variables
-│   ├── functions.md   # Explanation of functions
-│   ├── loops.md       # Explanation of loops
-│   └── conditions.md  # Explanation of conditions
-└── examples/          # Practical code examples
-    ├── basic-examples.md # Collection of simple examples
-    └── exercises.md      # Practice exercises
+├── index.html         # Main HTML file
+├── styles.css         # CSS file for styling
+└── script.js          # JavaScript file for interactivity
+
 ```
 
 ## Contributing
