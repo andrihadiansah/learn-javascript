@@ -26,7 +26,11 @@ JavaScript is a versatile and powerful programming language primarily used to cr
 
 ## Prerequisites
 
-No prior programming experience is required. However, familiarity with basic computer usage and text editing will be helpful.
+No prior programming experience is required to start learning JavaScript. However, having a basic understanding of **HTML** and **CSS** is highly recommended for creating interactive and styled web pages with JavaScript. This knowledge will help you understand how JavaScript interacts with the content and layout of the page.
+
+- **HTML**: Understanding the basic structure of web pages, like how to create elements such as buttons, headings, and paragraphs.
+- **CSS**: Familiarity with styling web pages, including how to position elements, apply colors, and create layouts, to enhance the appearance of your web pages.
+
 
 ### Tools Needed
 
