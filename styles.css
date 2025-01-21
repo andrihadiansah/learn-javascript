@@ -1,0 +1,65 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  width: 50%;
+  bottom: 0;
+  position: sticky;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Styling for elemen <details> */
+details {
+  background-color: #e6f7ff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details p {
+  margin-top: 1rem;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Fundamentals of JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Learn Fundamentals of JavaScript</h1>
+        <p>Welcome to the learning journey of JavaScript basics!</p>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>JavaScript is a versatile and powerful programming language primarily used to create interactive and dynamic content on the web. This repository will guide you through its fundamental concepts.</p>
+        </section>
+
+        <section id="topics-covered">
+            <h2>Topics Covered</h2>
+            <h3>1. Basic Concepts</h3>
+            
+            <!-- Variables Section -->
+            <details>
+                <summary><strong>Variables</strong></summary>
+                <p>In JavaScript, there are three ways to declare a variable: <code>var</code>, <code>let</code>, and <code>const</code>.</p>
+                <ul>
+                    <li><strong>var:</strong> Declares a variable globally or locally to an entire function regardless of block scope.</li>
+                    <li><strong>let:</strong> Declares a block-scoped variable, meaning it is only available within the block it is declared.</li>
+                    <li><strong>const:</strong> Declares a block-scoped, read-only constant variable that cannot be reassigned.</li>
+                </ul>
+            </details>
+
+            <!-- Functions Section -->
+            <details>
+                <summary><strong>Functions</strong></summary>
+                <p>A function in JavaScript is a block of code that performs a specific task and can be executed when called.</p>
+                <ul>
+                    <li>Function Declaration</li>
+                    <li>Function Expression</li>
+                    <li>Arrow Functions</li>
+                </ul>
+            </details>
+
+            <!-- Loops Section -->
+            <details>
+                <summary><strong>Loops</strong></summary>
+                <p>Loops are used to repeat a block of code multiple times. JavaScript provides several types of loops:</p>
+                <ul>
+                    <li><strong>for</strong>: Executes a block of code a specific number of times.</li>
+                    <li><strong>while</strong>: Executes a block of code as long as the condition is true.</li>
+                    <li><strong>do...while</strong>: Executes the block of code once, and then continues while the condition is true.</li>
+                </ul>
+            </details>
+
+            <!-- Conditions Section -->
+            <details>
+                <summary><strong>Conditions</strong></summary>
+                <p>Conditions allow you to make decisions in JavaScript code. You can use the following statements:</p>
+                <ul>
+                    <li><strong>if</strong>: Executes a block of code if a specified condition is true.</li>
+                    <li><strong>else if</strong>: Specifies a new condition to test if the first condition is false.</li>
+                    <li><strong>else</strong>: Executes code if all the preceding conditions are false.</li>
+                    <li><strong>switch</strong>: A more efficient alternative to multiple <code>if</code> statements.</li>
+                </ul>
+            </details>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+            <p>Below are some practical examples of JavaScript concepts:</p>
+            
+            <!-- Example 1 - Variables -->
+            <details>
+                <summary><strong>Example: Variables</strong></summary>
+                <p>This example demonstrates the usage of <code>var</code>, <code>let</code>, and <code>const</code>.</p>
+                <pre><code>
+let message = "Hello, welcome to learning JavaScript!";
+const greeting = "Welcome!";
+var info = "JavaScript makes websites interactive and dynamic.";
+
+function displayMessage() {
+    console.log(message);
+    console.log(greeting);
+    console.log(info);
+}
+                </code></pre>
+                <button onclick="displayMessage()">Run Example</button>
+            </details>
+
+            <!-- Example 2 - Functions -->
+            <details>
+                <summary><strong>Example: Functions</strong></summary>
+                <p>This example demonstrates how to declare and call functions.</p>
+                <pre><code>
+function greetUser(name) {
+    console.log("Hello, " + name + "!");
+}
+
+greetUser("Andri");
+                </code></pre>
+                <button onclick="greetUser('Andri')">Run Example</button>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Andri Hadiansah - Learn JavaScript</p>
+    </footer>
+
+    <!-- Ensure the JavaScript file is loaded after content -->
+    <script src="script.js"></script>
+</body>
+</html>
